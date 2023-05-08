@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height:50px ;
+    background-color:#4682B4;
+    z-index: 5;
+}
+
+
+header *{
+    display: inline;
+    height: 50px;
+}
+header ul{
+    padding: 0;
+}
+header li{
+    margin-left: 20px;
+}
+section{
+    height: 100vh;
+    border: 1px solid black;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#hero .profile-img{
+    position: absolute;
+    top: 143px;
+    right:85px;
+    width: 378px;
+    border-radius: 50%;
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1{
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 217, 0);
+    position: absolute;
+    left: 110px;
+    top: 110px;
+    padding-top: 24px;
+}
+
+#hero h2{
+    font-size: 2.5em;
+    font-style: italic;
+    position: absolute;
+    left: 24px;
+    top: 255px;
+    padding-top: 37px;
+    color: white;
+
+}
+#hero h3{
+    font-style: italic;
+    position: absolute;
+    left: 24px;
+    top: 466px;
+    padding-top: 37px;
+    color: white;
+    font-size: 36px;
+}
+#hero h4{
+    font-style: italic;
+    position: absolute;
+    left: 154px;
+    top: 366px;
+    padding-top: 37px;
+    color:gold;
+    font-size: 36px;
+}
+
+section h2{
+    font-size: 2.5em;
+}
+
+
+section h3{
+    font-size: 1.5em;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#hero{
+    background-image: url(/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+}
+
+#about{
+    background-image: url(/leone-venter-VieM9BdZKFo-unsplash\ \(1\).jpg);
+    z-index: 2;
+}
+
+#projects{
+    background-image: url(/sincerely-media-HoEYgBL_Gcs-unsplash.jpg);
+}
+#contact{
+    background-image: url(/barrett-ward-Ac9L5MrIPUQ-unsplash.jpg);
+}
+footer{
+    background-image: url(/footer2.jpg);
+}
+
+.none{
+    position:fixed;
+}
